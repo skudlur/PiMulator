@@ -36,16 +36,16 @@ module WrappedDIMM(
         .ba(ba),
         .bg(wrappeddimm),
         .ck2x(ck2x),
-        .ck_c(ck_c),
-        .ck_t(ck_t),
+        .ck_cn(ck_c),
+        .ck_tp(ck_t),
         .cke(cke),
         .cs_n(cs_n),
         .odt(odt),
         .parity(parity),
         .reset_n(reset_n),
         .dq(dq),
-        .dqs_c(dqs_c),
-        .dqs_t(dqs_t),
+        .dqs_cn(dqs_c),
+        .dqs_tp(dqs_t),
         .stall(stall)
     );
 
